@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+    font-family:sans-serif;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+h1{
+    color:white;
+    
+
+}
+nav {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:10px;
+
+    
+}
+ul a:hover {
+    color: #fa9021;
+    background-color: #2149fa;
+
+}
+ul {
+display: flex;
+width: 50%;
+height: 100%;
+justify-content: space-around;
+list-style: none;
+
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+ul button {
+    background-color: #fa9021;
+    color: aliceblue;
+}
+.hero-container {
+    width: 100%;
+    height: 80vh;
+    background-color: aqua;
+    display: flex;
+    margin-left: 25px;
+    
+}
+.hero-left {
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+}
+.main {
+    font-size: 45px;
+    width: 70%;
+}
+.top3 {
+    color: white;
+    width: 80%;
+    line-height: 25px;
+}
+.top {
+    color: #fa9021;
+}
+.top2 {
+    background-color: #fa9021;
+    color: white;
+    border-radius: 64px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 25%;
+
+}
+.hero-right {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    background-image: url(assets/joy_stick1.png);
+    object-fit:cover;
+
+}
+.hero-img {
+    height: 100%;
+
+}
+
+.big-container {
+
+    background-color:black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+    
+    
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.top-left {
+    color: white;
+    justify-content:space-between;
+    display: flex;
+    width: 80%;
+
+
+}
+.see {
+    background-color: #fa9021;
+    color: white;
+    border-radius: 64px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 25%;
+
+}
+.card-container {
+
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    color: white;
+    
+}
+.icon {
+    font-size: 0%;
+    font-weight: 100%;
+}
+.fire1 {
+    font-size: xx-small;
+    color: aliceblue;
+    
+}
+.info-section1 {
+    
+    background-color: black;
+    color: white;
+    width: 80%;
+    line-height: 25px;
+    text-align: center;
+
+}
+.info-section2 {
+    width: 100%;
+    background-color: black;
+
+}
+.texts {
+    display: flex;
+    justify-content: center;
+}
+.info-section3-container {
+    width: 80%;
+    background: url(assets/bg.png);
+    height: 600px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+
+    
+
+}
+.info-section4-container {
+    /*background-color: #fa9021;*/
+    display: flex;
+    justify-content:center;
+    
+    color: #fa9021;
+    width: 100%;
+    align-items: center;
+    
+
+}
+.info-section5-container {
+    
+    justify-content:space-around;
+    display: flex;
+    color: #fa9021;
+    width: 80%;
+    align-items: center;
+    margin-top: 18px;
+    
+
+}
+.info-section-top {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+    
+}
+.info-section-down{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.info-section6-container {
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    margin-top: 50px;
+}
+.info-section7-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-section8-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+.info7 {
+    color: white;
+    margin-top: 18px;
+    border-radius: 64px;
+    padding: 18px;
+    background-color: grey;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 20%;
+
+}
